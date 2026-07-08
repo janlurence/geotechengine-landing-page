@@ -1,0 +1,136 @@
+:root {
+  --geotech-navy: #031942;
+  --geotech-sky: #0ea5e9;
+  --geotech-white: #ffffff;
+  --geotech-soft: #f6f9fc;
+  --tp-common-px-black: var(--geotech-navy);
+  --tp-common-px-black-2: #051332;
+  --tp-common-px-red: var(--geotech-sky);
+  --tp-common-px-orange: var(--geotech-sky);
+  --tp-common-px-orange-dark: #0284c7;
+  --tp-theme-px-1: var(--geotech-sky);
+  --tp-grey-px-1: var(--geotech-soft);
+}
+
+body,
+.body-wrapper,
+[data-bg-color="#1C1D20"],
+.px-offcanvas-2-area,
+.px-offcanvas-2-wrapper,
+.px-hero-2-area,
+.px-about-2-area,
+.px-service-2-area,
+.px-portfolio-area,
+.px-award-2-area,
+footer,
+.px-footer-area,
+.px-copyright-area {
+  background-color: var(--geotech-navy) !important;
+}
+
+.px-text-slider-wrap,
+[data-bg-color="#F11111"],
+.count__bdr,
+.back-to-top-btn,
+.tp-btn-yellow-border.postbox-btn.active,
+.px-btn-zikzak .zikzak-bg svg path {
+  background-color: var(--geotech-sky) !important;
+}
+
+.px-btn-zikzak .zikzak-bg svg path {
+  fill: var(--geotech-sky) !important;
+}
+
+.tp-btn-yellow-border,
+.tp-btn-yellow-border.postbox-btn,
+.tp-btn-yellow-border.postbox-btn.active {
+  border-color: var(--geotech-sky) !important;
+}
+
+.tp-btn-yellow-border,
+.tp-btn-yellow-border span,
+.tp-btn-yellow-border i,
+.px-header-2-bar button,
+.px-header-2-bar button span,
+.px-section-subtitle,
+.px-service-2-title a:hover,
+.px-service-2-element.active .px-service-2-title a,
+.px-award-content span,
+.px-footer-widget-social a:hover,
+.px-footer-widget-menu ul li a:hover,
+.px-footer-widget-info a:hover,
+.tp-offcanvas-social ul li a:hover,
+.tp-offcanvas-menu ul li a:hover {
+  color: var(--geotech-sky) !important;
+}
+
+.tp-btn-yellow-border.postbox-btn.active,
+.tp-btn-yellow-border.postbox-btn.active span,
+.tp-btn-yellow-border.postbox-btn.active i,
+.back-to-top-btn,
+.px-text-slider-item span,
+.px-text-slider-item svg path {
+  color: var(--geotech-white) !important;
+  fill: var(--geotech-white) !important;
+}
+
+.loader {
+  background: var(--geotech-navy) !important;
+}
+
+.px-header-2-area.header-fixed {
+  background: linear-gradient(180deg, rgba(3, 25, 66, 0.92), rgba(3, 25, 66, 0)) !important;
+}
+
+.px-hero-2-text,
+.px-about-2-title,
+.px-service-2-title a,
+.px-portfolio-title,
+.px-award-content .px-section-title,
+.px-footer-widget-title,
+.px-copyright-big-text {
+  color: var(--geotech-white) !important;
+}
+
+.px-hero-2-content span,
+.px-hero-2-contents span,
+.px-about-2-subtitle,
+.px-service-2-wrap label,
+.px-service-2-content p,
+.px-portfolio-category span,
+.px-footer-widget-menu ul li a,
+.px-footer-widget-info a,
+.px-footer-area p {
+  color: rgba(255, 255, 255, 0.68) !important;
+}
+
+.px-about-2-title i,
+.px-about-2-title em,
+.px-hero-2-text i span,
+.px-service-2-content span {
+  color: var(--geotech-sky) !important;
+}
+
+.px-hero-2-text i {
+  background: var(--geotech-white) !important;
+}
+
+.px-hero-2-thumb,
+.px-service-2-thumb,
+.px-portfolio-thumb {
+  border-color: rgba(14, 165, 233, 0.18) !important;
+}
+
+.px-portfolio-category span {
+  border-color: rgba(14, 165, 233, 0.28) !important;
+  background: rgba(3, 25, 66, 0.62) !important;
+}
+
+.offcanvas-bg {
+  background: rgba(3, 25, 66, 0.92) !important;
+}
+
+::selection {
+  background: var(--geotech-sky);
+  color: var(--geotech-white);
+}
