@@ -134,3 +134,107 @@ footer,
   background: var(--geotech-sky);
   color: var(--geotech-white);
 }
+
+.geotech-company-card {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 130px !important;
+  height: 168px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.geotech-company-card::before {
+  content: none !important;
+}
+
+.geotech-company-card a {
+  position: relative;
+  z-index: 1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.geotech-company-card img {
+  width: auto !important;
+  max-width: 84% !important;
+  height: auto !important;
+  max-height: 64% !important;
+  object-fit: contain !important;
+  filter: none !important;
+}
+
+.geotech-company-card-lacomus img,
+.geotech-company-card-cq img,
+.geotech-company-card-blesame img {
+  max-width: 92% !important;
+  max-height: 42% !important;
+}
+
+.geotech-company-card-manor img {
+  max-width: 72% !important;
+  max-height: 72% !important;
+}
+
+.geotech-company-card-ua img,
+.geotech-company-card-manor img {
+  background: #191919;
+  padding: 0;
+  max-width: 72% !important;
+  max-height: 72% !important;
+}
+
+.geotech-company-card-cerebro img,
+.geotech-company-card-king img {
+  max-width: 68% !important;
+  max-height: 68% !important;
+}
+
+.geotech-company-card-synk img {
+  max-width: 76% !important;
+  max-height: 52% !important;
+}
+
+.geotech-company-card-lacomus img {
+  min-width: 76% !important;
+}
+
+.geotech-company-card-ua,
+.geotech-company-card-manor,
+.geotech-company-card-synk,
+.geotech-company-card-lacomus,
+.geotech-company-card-cq {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.geotech-company-card-lacomus img,
+.geotech-company-card-cq img {
+  filter: invert(1) brightness(1.28) contrast(1.08) drop-shadow(0 14px 24px rgba(0, 0, 0, 0.22)) !important;
+}
+
+.geotech-company-card-synk img {
+  filter: brightness(1.18) contrast(1.08) drop-shadow(0 14px 24px rgba(0, 0, 0, 0.25)) !important;
+}
+
+.geotech-company-card img {
+  filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.22)) !important;
+}
+
+.px-hero-2-bottom-active .geotech-company-card {
+  width: min(100%, 230px) !important;
+  height: 298px !important;
+}
+
+.px-hero-2-bottom-active .geotech-company-card img {
+  max-width: 78% !important;
+  max-height: 62% !important;
+}
